@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div >
-      <img src="./Food.jpg" alt="Food" style={{ width: '100%', height : "750px", padding : '10px'}} />
+      <img src={`${process.env.PUBLIC_URL}/Food.jpg`} alt="Food" style={{ width: '100%', height : "750px", padding : '10px'}} />
       <h1 
         style={{
           position: 'absolute',
